@@ -1,0 +1,133 @@
+/*//this css contains the index design  */
+.mg
+{
+    margin-top: 10px;
+    padding-right: 0px;
+}
+.mg-assure
+{
+    margin-top: 50px;
+}
+.reco{
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    border-radius: 20px;
+    padding: 2px 10px;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #f28500;
+}
+.card{
+    border: 0px;
+    background-color: #fff;
+}
+.city{
+    margin-left: 7px;
+}
+
+.cards {
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    border-radius: 20px;
+    padding: 2px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: rgb(247, 186, 44);
+    margin-bottom: 0.5rem;
+}
+.bdr {
+    margin-top: 10px;
+}
+.testimonial-text {
+    font-size: 1.5rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+.bottom-quote {
+    margin-right: auto;
+    float: right;
+    margin-top: -1rem;
+}
+footer .footer-nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.list-group {
+    margin-bottom: 20px;
+    padding-left: 0;
+}
+footer{
+    background-color: black;
+}
+footer a {
+    color: #fff;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+footer ul li{
+        list-style-type: none;
+}
+.h5{
+    padding-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+}
+
+
+
+/*// This is the blog part*/
+
+btn-hv:hover{
+    color: black;
+    text-decoration-color: #fff;
+}
+
+a {
+    color: #505456;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+a:hover {
+    color: gray;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+/*//This is the About Us Page*/
+.about-head{
+    font-size: 2.5rem;
+    padding-left: 10%;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+/*//this the FAQ part*/
+.sub-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    min-height: 50px;
+    padding-bottom: 10px;
+    /* padding-bottom: 15px; */
+}
+.article-list-item {
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    padding: 15px 0;
+}
+
+/*login design*/
+.fb-button{
+    background-color: #3578e5;
+    color: white;
+}
