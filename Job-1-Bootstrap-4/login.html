@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Page Title </title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/customOne.css">
+	
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<!--    <link rel="stylesheet" href="css/custom-style.css" >-->
+    
+    <title>Hello, world!</title>
+  </head>
+
+
+
+  <body>
+    
+  <div class="container-fluid" id="nav">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="#">CSR Window</a>
+<!--
+        <a class="navbar-brand mb-3" href="#">
+          <img src="images/logo-coral.svg" width="100px" >
+        </a>
+-->
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+         aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+
+
+          <ul class="navbar-nav mr-auto container-fluid">
+            <li class="nav-item col-lg-6 col-sm-12">
+                     <form class="form-inline my-2 my-lg-0 inbutton">
+                            <button class="btn btn-light btn-lg  my-2 my-sm-0 ml-0 col-2" 
+                          style="border-radius: 5px 0px 0px 5px;"
+                            type="submit"><i class="fas fa-search text-danger "></i></button>
+                            
+                            <input class="form-control form-control-lg mr-sm-4 col-8 bg-light border-0 "
+                            style="border-radius: 5px 0px 0px 5px" 
+                            type="search" placeholder="Try Causes, Locations, NGOs..." aria-label="Search">
+                             
+                            
+                        </form>
+                    </li>
+
+          
+
+           <li class="nav-item ml-right">
+               <a class="nav-link btn  mx-2" href="index.html"
+                
+                data-toggle="popover" title="Try CSR Window for Donation"
+                data-placement="bottom"
+                data-trigger="focus"
+                data-content="Donate for batterment"
+                
+                >Home</a>
+           </li>
+             <li class="nav-item ">        
+                <a class="nav-link btn mx-2" href="blog.html">Blog</a>
+             </li>   
+            <li class="nav-item">    
+                <a class="nav-link btn mx-2" href="#">About Us</a>
+             </li>    
+            <li class="nav-item">    
+                <a class="nav-link btn mx-2" href="#">Help</a>
+             </li>    
+            <li class="nav-item">    
+                <a class="nav-link btn mx-2" href="#" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Login</a>
+             </li>    
+            <li class="nav-item ml-right">    
+                <a class="nav-link btn btn-success " href="#" data-toggle="modal" data-target="#exampleModal1" data-whatever="@mdo">Signup</a>
+             </li>    
+            
+             </ul>
+          
+        </div>
+      </nav>
+
+      </div> 
+      
+      
+        <!--modal login-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <button type="button" class="btn fb-button btn-block btn-lg"><span><i class="fab fa-facebook-square"> </i></span>  Log In with Facebook</button>
+                    
+                  </div>
+                  <div class="form-group">
+                    <button type="button" class="btn google-button btn-block btn-outline-secondary btn-lg"><span> <i class="fab fa-google"> </i></span>  Log In with Google</button>
+                  </div>
+                  <div class="form-group">
+                    <p class="text-center">or</p>
+                  </div>
+                  <div class="form-group">  
+                    <input type="email" class="form-control btn-lg " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control btn-lg" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  <div class="form-group">
+                    <button type="button" class="btn btn-secondary btn-block btn-lg">  Login</button>
+                    
+                  </div>
+                  <div class="form-group">
+                    <p  class="text-right"><a href="#">Forgot Password?</a></p>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <p class="text-center">Need a new Account? <span><a href="#">Sign Up</a></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+   <!--modal login ends-->
+      
+        <!--modal signup-->
+        <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <button type="button" class="btn fb-button btn-block btn-lg"><span><i class="fab fa-facebook-square"> </i></span>  Log In with Facebook</button>
+                    
+                  </div>
+                  <div class="form-group">
+                    <button type="button" class="btn google-button btn-block btn-outline-secondary btn-lg"><span> <i class="fab fa-google"> </i></span>  Log In with Google</button>
+                  </div>
+                  <div class="form-group">
+                    <p class="text-center">or</p>
+                  </div>
+                  <div class="form-group">
+                    <button type="button" class="btn btn-secondary btn-block btn-lg"   data-toggle="modal" data-target="#exampleModal2" data-whatever="@mdo">  Sign Up with Email</button>
+                    
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <p class="text-center">Already have an account? <span><a href="#">Login</a></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+   <!--modal lsign up ends-->
+      
+      
+       
+        <!--modal signup email expnad-->
+        <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <p>Sign Up with <a href="">Facebook</a> or <a href="">Google</a></p>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">  
+                    <input type="email" class="form-control btn-lg " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control btn-lg" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control btn-lg" id="exampleInputPassword1" placeholder="Confirm  Password">
+                  </div>
+                  <div class="form-group">
+                    <button type="button" class="btn btn-secondary btn-block btn-lg">  Sign Up</button>
+                    
+                  </div>
+                  <div class="form-group">
+                    <p  class="text-right"><a href="#">Forgot Password?</a></p>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <p class="text-center">Already have an account? <span><a href="#">Login</a></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+   <!--modal Signup expand ends-->
+       
+       
+       
+       
+        
+<script src="js/modal.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+  <script>
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
+  
+  </script>
+  
+</body>
+
+
+
+</html>
